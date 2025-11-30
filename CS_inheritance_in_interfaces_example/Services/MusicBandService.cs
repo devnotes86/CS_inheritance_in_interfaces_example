@@ -8,10 +8,10 @@ public class MusicBandService : IMusicBandService
         BandName = bandName;
     }
     
-    // public void SignAuthograph()
-    // {
-    //     Console.WriteLine($"{BandName} is Signing authograph");
-    // }
+    public void SignAuthograph()
+    {
+        Console.WriteLine($"{BandName} is Signing authograph");
+    }
 
     public void PlayConcert()
     {
